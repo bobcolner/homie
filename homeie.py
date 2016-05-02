@@ -8,12 +8,12 @@ Usage:
 
 Options:
     -h  --help              Show this screen
-    --homepage <url>        homepage to scrape [default: https://injo.com/]
-    --db-user <user>        db username [default: paperboy]
-    --db-pass <pass>        db password [default: sillypass]
-    --db-host <host>        db hostname [default: 192.168.99.100]
+    --homepage <homepage>   homepage to scrape [default: https://injo.com/]
+    --db-user <user>        db username [default: postgres]
+    --db-pass <pass>        db password
+    --db-host <host>        db hostname [default: localhost]
     --db-port <port>        db port [default: 5432]
-    --db-name <name>        db name [default: paperboy]
+    --db-name <name>        db name [default: postgres]
 """
 import os
 import datetime
