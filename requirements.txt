@@ -7,3 +7,4 @@ cssselect
 ipython
 ptpython
 ipdb
+tqdm

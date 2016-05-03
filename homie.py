@@ -59,6 +59,7 @@ def pg_connect():
 if __name__ == '__main__':
 
     while True:
+
         try:
             earls = get_homepage_urls(url=args['--homepage'])
             print(earls)
@@ -68,6 +69,7 @@ if __name__ == '__main__':
                 insert_pg_kv(conn, data=earls, table=args['--db-table'])
                 conn.close()
             time.sleep(300)
+        
         except Exception as e:
             print(e.__doc__)
             print(e.message)
