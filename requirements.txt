@@ -3,3 +3,7 @@ jsonpickle
 docopt
 requests
 lxml
+cssselect
+ipython
+ptpython
+ipdb
